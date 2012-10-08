@@ -1,0 +1,28 @@
+<!-- Author : SkyKOG -->
+
+<?xml version=1.0 encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Question 9</title>
+			<script type="text/javascript">
+			function func(phnum) {
+				var reg=/[0-9][0-9][0-9][-][0-9][0-9][0-9][0-9][-][0-9][0-9][0-9][0-9][0-9][0-9][0-9]$/;
+				if(!phnum.value.match(reg)||phnum.value.length==0)
+				{
+					alert("Invalid : Please enter in the format ddd-dddd-ddddddd");
+					return false;
+				}
+				else
+				alert("The Phone Number Entered is Valid");
+			}
+			</script>
+	</head>
+	<body>
+		<form>
+			Enter the Phone Number to Validate :
+			<input type="text" name="phnum" size="30">
+			<input type="button" value="click" onclick="func(phnum)">
+		</form>
+	</body>
+</html>
