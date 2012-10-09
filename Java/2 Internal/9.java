@@ -3,7 +3,7 @@
 import java.awt.*;
 import javax.swing.*;
 
-public class JTableDemo extends JApplet {
+public class JTable extends JApplet {
 	
 	public void init() {
 		SwingUtilities.invokeAndWait(
@@ -34,6 +34,6 @@ public class JTableDemo extends JApplet {
 
 /*
 HTML File
-<applet code="JTableDemo" width=400 height=200>
+<applet code="JTable" width=400 height=200>
 </applet>
 */
