@@ -1,4 +1,14 @@
 7-Semester-Programming
 ======================
 
-Important questions of 7th Semester
+<b>Important questions of 7th Semester</b>
+
+##About :##
+<b>This repository will contain :</b><br>
+<ul>
+  <li>Solutions to questions given for internals</li>
+  <li>Important questions in class</li>
+  <li>Sample programs</li>
+  <li>Other questions i feel are important :) ... </li>
+</ul>
+
