@@ -20,8 +20,7 @@ class Exercise
 
 			Console.Write("An Operator (+, -, * or /): ");
 			Operator = char.Parse(Console.ReadLine());
-			if( Operator != '+' && Operator != '-' &&
-				Operator != '*' && Operator != '/' )
+			if( Operator != '+' && Operator != '-' && Operator != '*' && Operator != '/' )
 				throw new Exception("Invalid Operator");
 
 			Console.Write("Second Number: ");
