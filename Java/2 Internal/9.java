@@ -1,4 +1,4 @@
-//Author : SkyKOG
+// Author : SkyKOG
 
 import java.awt.*;
 import javax.swing.*;
