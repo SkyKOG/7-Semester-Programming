@@ -31,3 +31,9 @@ public class JTableDemo extends JApplet {
 		add(jsp);
 	}
 }
+
+/*
+HTML File
+<applet code="JTableDemo" width=400 height=200>
+</applet>
+*/
