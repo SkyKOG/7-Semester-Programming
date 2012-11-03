@@ -1,0 +1,46 @@
+<!-- Author : SkyKOG -->
+
+<?xml version=1.0 encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Question 5</title>
+		<script type="text/javascript">
+			function validateForm () {
+
+      		var password1 = document.forms["myForm"].passwordTextBox.value;
+      		var password2 = document.forms["myForm"].passwordConfirmTextBox.value;
+      		
+      		if (password1 == password2) {
+        		alert("Passwords Matched");
+        		return true;
+      		} else {
+        		alert("Passwords did not match... did you type them correctly?");
+        		return false;
+      		}
+    	}	
+		</script>
+	</head>
+	<body>
+	<form id="myForm" method="post" onsubmit="return validateForm();">
+    	<table>
+        <tr>
+        	<td>Password</td>
+          	<td>
+            	<input type="text" name="passwordTextBox">
+          	</td>
+        </tr>
+        <tr>
+        	<td>Password Confirm</td>
+          	<td>
+            	<input type="text" name="passwordConfirmTextBox">
+          	</td>
+        </tr>
+        <tr>
+        	<td colspan="2">
+            	<input type="submit" value="Submit">
+          	</td>
+        </tr>
+      </table>
+    </form>
+	</body>
