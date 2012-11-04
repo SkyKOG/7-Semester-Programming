@@ -7,16 +7,16 @@
 <html>
 	<head><title>Question 3a</title></head>
 <body>
-	<table border="1">
-	<tr><td align="center">Used Cars Sale</td></tr>
-	<xsl:for-each select="number">
-		<tr>
-			<td><xsl:value-of select="year" /></td>
-			<td><xsl:value-of select="model" /></td>
-			<td><xsl:value-of select="make" /></td>
-			<td><xsl:value-of select="price" /></td>
-		</tr>
-	</xsl:for-each>
+	<table>
+		<tr><td>Used Cars Sale</td></tr>
+		<xsl:for-each select="number">
+			<tr>
+				<td><xsl:value-of select="year" /></td>
+				<td><xsl:value-of select="model" /></td>
+				<td><xsl:value-of select="make" /></td>
+				<td><xsl:value-of select="price" /></td>
+			</tr>
+		</xsl:for-each>
 	</table>
 </body>
 </html>
