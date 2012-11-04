@@ -10,6 +10,6 @@
   <li>Important questions in class</li>
   <li>Sample programs</li>
   <li>Other questions i feel are important :) ... </li>
-  <li>Buy me a Bun Samosa if this page was helpful :D ... </li>
+  <br><br><li><b>Buy me a Bun Samosa if this page was helpful :D ...</b> </li>
 </ul>
 
