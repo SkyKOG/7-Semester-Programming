@@ -1,0 +1,53 @@
+<!-- Author : SkyKOG -->
+
+<?xml version=1.0 encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Question 7</title>
+		<script type="text/javascript">
+		function showAiroplane() {
+
+		var selection = document.Radio.selection;
+
+		var selectionResult = "";
+		for(var i = 0; i < selection.length; i++) {
+		    if(selection[i].checked) {
+		        selectionResult = selection[i].value;
+		    }
+		}
+			alert(selectionResult);
+		} 
+		</script>   
+	</head>
+	<body>
+		Choose your Airoplane :
+
+		<form name="Radio" id="destination" action="">
+			<br>Boeing 737: 
+
+			<input type="radio" name="selection"  value="
+			Pilot : SkyKOG
+			Seating Capacity : 396
+			Food : Good">
+
+			<br>Spice Jet: 
+
+			<input type="radio" name="selection"  value="
+			Pilot : Chris
+			Seating Capacity : 362
+			Food : Better">
+
+			<br>Kingfisher:
+
+			<input type="radio" name="selection"  value="
+			Pilot : Vish
+			Seating Capacity : 562
+			Food : Best">
+
+			</form>
+
+			<br></br> See details of the selected Airoplane :
+			<input type="button" value="Submit" onclick="showAiroplane();" /><br></br>
+	</body>
+</html>
