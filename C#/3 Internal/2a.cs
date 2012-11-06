@@ -28,3 +28,22 @@ public class Program
 		}
 	}
 }
+
+/*
+
+The Explainaition : 
+
+Well this is a program whish implements the IEnumberable interface ...
+Not only arrays but any type which supports the method GetEnumerator() can be iterated using the 
+foreach construct.
+Classes or structues which support this method advertise that they are able to expose the contained 
+subitems.
+As the System.Array type already implements the IEnumerable & IEnumerator, one can simply delegate the 
+request as shown above.
+Once the Garage class has been made enumerable by interfacing it with the IEnumerable interface 
+(class Garage : IEnumerable)we can use the foreach construct to iterate over the Car objects.
+
+In short IEnumerable allows non-conventional(derived) data types like classes/structures 
+to be Enumerable/Iteratable like conventional data types.
+
+*/
