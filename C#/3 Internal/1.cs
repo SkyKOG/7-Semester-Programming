@@ -44,7 +44,8 @@ operation of printing will be performed ... the implementation of Shape class ha
 The interface feature is implemented as follows : 
 To implement a feature of points the IPointy interface has been	created for certain shapes ...
 we are checking weather the association has been done using the check "hex2 as Ipointy"
-if the association exists then the points will be printed accordingly.
+if the association exists then the points will be printed accordingly. 
+(And in our case the association exists as we have associated Hexagon with IPointly "class Hexagon : Shape,IPointy")
 the points are set and returned using the property Points
 
 */
