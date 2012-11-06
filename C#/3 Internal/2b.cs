@@ -23,11 +23,6 @@ public struct ComplexNumber : IConvertible
         this.imaginary = imaginary;
     }
 
-    public TypeCode GetTypeCode()
-    {
-        return TypeCode.Object;
-    }
-
     public double ToDouble(IFormatProvider provider)
     {
         return this.real;
@@ -43,3 +38,4 @@ public struct ComplexNumber : IConvertible
         throw new InvalidCastException();
     }
 }
+
