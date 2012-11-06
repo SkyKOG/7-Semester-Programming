@@ -35,6 +35,9 @@ Well This program works on the simle principle that certain operations will be p
 when associated members are invoked ... an interface in C# is like inheritance an in the 
 above program we are trying to inherit some features depending upon need ... 
 
+An interface addes features to a class without modifying the class itself ... the values inside 
+the interface are worked upon using the set and get methods ...
+
 When we say :
 Hexagon hex2 = new Hexagon("Peter");
 this is gonna work perfectly as Shape is a class and the Hexagon class inherits from it 
