@@ -1,5 +1,7 @@
 //Author : SkyKOG
 
+using System;
+
 public interface IPointy
 {
 	byte Points { get; }
