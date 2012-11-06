@@ -1,5 +1,7 @@
 //Author : SkyKOG
 
+using System;
+
 public class Garage : IEnumerable
 {
 	private Car[] carArray;
