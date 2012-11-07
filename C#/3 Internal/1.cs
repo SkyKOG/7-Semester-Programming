@@ -33,8 +33,8 @@ static void Main(string[] args)
 
 The Explainaition : 
 
-Well This program works on the simle principle that certain operations will be performed 
-when associated members are invoked ... an interface in C# is like inheritance an in the 
+Well This program works on the simple principle that certain operations will be performed 
+when associated members are invoked ... an interface in C# is like inheritance and in the 
 above program we are trying to inherit some features depending upon need ... 
 
 An interface addes features to a class without modifying the class itself ... the values inside 
