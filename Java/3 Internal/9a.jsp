@@ -1,6 +1,6 @@
 <!-- Author : SkyKOG -->
 
-<html>
+<!-- <html>
 <head>
 	<title>Question 9a</title>
 </head>
@@ -9,4 +9,6 @@
 	<%= Integer.parseInt(request.getParameter("value1")) + 
 		Integer.parseInt(request.getParameter("value2")) %>
 </body>
-</html>
+</html> -->
+
+To Update pls wait :) ...
